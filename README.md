@@ -28,6 +28,6 @@ This project is designed to simulate a financial application that connects to ba
 To get a local copy up and running, follow these simple steps:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/HanMLG/gainiFi.git
+cd gainiFi
 # Instructions for setting up the local environment
