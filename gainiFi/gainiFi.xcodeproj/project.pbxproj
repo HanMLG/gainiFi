@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3DD97E2BD2F858004D8935 /* gainiFiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD97D2BD2F858004D8935 /* gainiFiApp.swift */; };
+		BE3DD9802BD2F858004D8935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD97F2BD2F858004D8935 /* ContentView.swift */; };
+		BE3DD9822BD2F85B004D8935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3DD9812BD2F85B004D8935 /* Assets.xcassets */; };
+		BE3DD9852BD2F85B004D8935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3DD9842BD2F85B004D8935 /* Preview Assets.xcassets */; };
+		BE3DD98F2BD2F85B004D8935 /* gainiFiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD98E2BD2F85B004D8935 /* gainiFiTests.swift */; };
+		BE3DD9992BD2F85B004D8935 /* gainiFiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD9982BD2F85B004D8935 /* gainiFiUITests.swift */; };
+		BE3DD99B2BD2F85B004D8935 /* gainiFiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD99A2BD2F85B004D8935 /* gainiFiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE3DD98B2BD2F85B004D8935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3DD9722BD2F858004D8935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3DD9792BD2F858004D8935;
+			remoteInfo = gainiFi;
+		};
+		BE3DD9952BD2F85B004D8935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3DD9722BD2F858004D8935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3DD9792BD2F858004D8935;
+			remoteInfo = gainiFi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE3DD97A2BD2F858004D8935 /* gainiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gainiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3DD97D2BD2F858004D8935 /* gainiFiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gainiFiApp.swift; sourceTree = "<group>"; };
+		BE3DD97F2BD2F858004D8935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE3DD9812BD2F85B004D8935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3DD9842BD2F85B004D8935 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE3DD98A2BD2F85B004D8935 /* gainiFiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gainiFiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3DD98E2BD2F85B004D8935 /* gainiFiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gainiFiTests.swift; sourceTree = "<group>"; };
+		BE3DD9942BD2F85B004D8935 /* gainiFiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gainiFiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3DD9982BD2F85B004D8935 /* gainiFiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gainiFiUITests.swift; sourceTree = "<group>"; };
+		BE3DD99A2BD2F85B004D8935 /* gainiFiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gainiFiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3DD9772BD2F858004D8935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3DD9872BD2F85B004D8935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3DD9912BD2F85B004D8935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE3DD9712BD2F858004D8935 = {
+			isa = PBXGroup;
+			children = (
+				BE3DD97C2BD2F858004D8935 /* gainiFi */,
+				BE3DD98D2BD2F85B004D8935 /* gainiFiTests */,
+				BE3DD9972BD2F85B004D8935 /* gainiFiUITests */,
+				BE3DD97B2BD2F858004D8935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3DD97B2BD2F858004D8935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DD97A2BD2F858004D8935 /* gainiFi.app */,
+				BE3DD98A2BD2F85B004D8935 /* gainiFiTests.xctest */,
+				BE3DD9942BD2F85B004D8935 /* gainiFiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3DD97C2BD2F858004D8935 /* gainiFi */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DD97D2BD2F858004D8935 /* gainiFiApp.swift */,
+				BE3DD97F2BD2F858004D8935 /* ContentView.swift */,
+				BE3DD9812BD2F85B004D8935 /* Assets.xcassets */,
+				BE3DD9832BD2F85B004D8935 /* Preview Content */,
+			);
+			path = gainiFi;
+			sourceTree = "<group>";
+		};
+		BE3DD9832BD2F85B004D8935 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DD9842BD2F85B004D8935 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE3DD98D2BD2F85B004D8935 /* gainiFiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DD98E2BD2F85B004D8935 /* gainiFiTests.swift */,
+			);
+			path = gainiFiTests;
+			sourceTree = "<group>";
+		};
+		BE3DD9972BD2F85B004D8935 /* gainiFiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DD9982BD2F85B004D8935 /* gainiFiUITests.swift */,
+				BE3DD99A2BD2F85B004D8935 /* gainiFiUITestsLaunchTests.swift */,
+			);
+			path = gainiFiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3DD9792BD2F858004D8935 /* gainiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3DD99E2BD2F85B004D8935 /* Build configuration list for PBXNativeTarget "gainiFi" */;
+			buildPhases = (
+				BE3DD9762BD2F858004D8935 /* Sources */,
+				BE3DD9772BD2F858004D8935 /* Frameworks */,
+				BE3DD9782BD2F858004D8935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gainiFi;
+			productName = gainiFi;
+			productReference = BE3DD97A2BD2F858004D8935 /* gainiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE3DD9892BD2F85B004D8935 /* gainiFiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3DD9A12BD2F85B004D8935 /* Build configuration list for PBXNativeTarget "gainiFiTests" */;
+			buildPhases = (
+				BE3DD9862BD2F85B004D8935 /* Sources */,
+				BE3DD9872BD2F85B004D8935 /* Frameworks */,
+				BE3DD9882BD2F85B004D8935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3DD98C2BD2F85B004D8935 /* PBXTargetDependency */,
+			);
+			name = gainiFiTests;
+			productName = gainiFiTests;
+			productReference = BE3DD98A2BD2F85B004D8935 /* gainiFiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE3DD9932BD2F85B004D8935 /* gainiFiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3DD9A42BD2F85B004D8935 /* Build configuration list for PBXNativeTarget "gainiFiUITests" */;
+			buildPhases = (
+				BE3DD9902BD2F85B004D8935 /* Sources */,
+				BE3DD9912BD2F85B004D8935 /* Frameworks */,
+				BE3DD9922BD2F85B004D8935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3DD9962BD2F85B004D8935 /* PBXTargetDependency */,
+			);
+			name = gainiFiUITests;
+			productName = gainiFiUITests;
+			productReference = BE3DD9942BD2F85B004D8935 /* gainiFiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3DD9722BD2F858004D8935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BE3DD9792BD2F858004D8935 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BE3DD9892BD2F85B004D8935 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BE3DD9792BD2F858004D8935;
+					};
+					BE3DD9932BD2F85B004D8935 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BE3DD9792BD2F858004D8935;
+					};
+				};
+			};
+			buildConfigurationList = BE3DD9752BD2F858004D8935 /* Build configuration list for PBXProject "gainiFi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3DD9712BD2F858004D8935;
+			productRefGroup = BE3DD97B2BD2F858004D8935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3DD9792BD2F858004D8935 /* gainiFi */,
+				BE3DD9892BD2F85B004D8935 /* gainiFiTests */,
+				BE3DD9932BD2F85B004D8935 /* gainiFiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3DD9782BD2F858004D8935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3DD9852BD2F85B004D8935 /* Preview Assets.xcassets in Resources */,
+				BE3DD9822BD2F85B004D8935 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3DD9882BD2F85B004D8935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3DD9922BD2F85B004D8935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3DD9762BD2F858004D8935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3DD9802BD2F858004D8935 /* ContentView.swift in Sources */,
+				BE3DD97E2BD2F858004D8935 /* gainiFiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3DD9862BD2F85B004D8935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3DD98F2BD2F85B004D8935 /* gainiFiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3DD9902BD2F85B004D8935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3DD99B2BD2F85B004D8935 /* gainiFiUITestsLaunchTests.swift in Sources */,
+				BE3DD9992BD2F85B004D8935 /* gainiFiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE3DD98C2BD2F85B004D8935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3DD9792BD2F858004D8935 /* gainiFi */;
+			targetProxy = BE3DD98B2BD2F85B004D8935 /* PBXContainerItemProxy */;
+		};
+		BE3DD9962BD2F85B004D8935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3DD9792BD2F858004D8935 /* gainiFi */;
+			targetProxy = BE3DD9952BD2F85B004D8935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE3DD99C2BD2F85B004D8935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE3DD99D2BD2F85B004D8935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3DD99F2BD2F85B004D8935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gainiFi/Preview Content\"";
+				DEVELOPMENT_TEAM = M7DG8QRAF9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.gainifi.gainiFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE3DD9A02BD2F85B004D8935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gainiFi/Preview Content\"";
+				DEVELOPMENT_TEAM = M7DG8QRAF9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.gainifi.gainiFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE3DD9A22BD2F85B004D8935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7DG8QRAF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.gainifi.gainiFiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gainiFi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gainiFi";
+			};
+			name = Debug;
+		};
+		BE3DD9A32BD2F85B004D8935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7DG8QRAF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.gainifi.gainiFiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gainiFi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gainiFi";
+			};
+			name = Release;
+		};
+		BE3DD9A52BD2F85B004D8935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7DG8QRAF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.gainifi.gainiFiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gainiFi;
+			};
+			name = Debug;
+		};
+		BE3DD9A62BD2F85B004D8935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7DG8QRAF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.gainifi.gainiFiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gainiFi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3DD9752BD2F858004D8935 /* Build configuration list for PBXProject "gainiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3DD99C2BD2F85B004D8935 /* Debug */,
+				BE3DD99D2BD2F85B004D8935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3DD99E2BD2F85B004D8935 /* Build configuration list for PBXNativeTarget "gainiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3DD99F2BD2F85B004D8935 /* Debug */,
+				BE3DD9A02BD2F85B004D8935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3DD9A12BD2F85B004D8935 /* Build configuration list for PBXNativeTarget "gainiFiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3DD9A22BD2F85B004D8935 /* Debug */,
+				BE3DD9A32BD2F85B004D8935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3DD9A42BD2F85B004D8935 /* Build configuration list for PBXNativeTarget "gainiFiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3DD9A52BD2F85B004D8935 /* Debug */,
+				BE3DD9A62BD2F85B004D8935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3DD9722BD2F858004D8935 /* Project object */;
+}
