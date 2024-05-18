@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE1EF1BE2BF7FD1600C1A527 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1EF1BD2BF7FD1600C1A527 /* LineChartView.swift */; };
+		BE1EF1C02BF7FD7300C1A527 /* ChartInterpolationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1EF1BF2BF7FD7300C1A527 /* ChartInterpolationMethod.swift */; };
+		BE1EF1C22BF7FDB300C1A527 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1EF1C12BF7FDB300C1A527 /* Mock.swift */; };
+		BE1EF1C42BF8002300C1A527 /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1EF1C32BF8002300C1A527 /* ChartType.swift */; };
+		BE1EF1C62BF8013700C1A527 /* AccessibilityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1EF1C52BF8013700C1A527 /* AccessibilityHelpers.swift */; };
+		BE1EF1C82BF822EA00C1A527 /* SectorChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1EF1C72BF822EA00C1A527 /* SectorChartView.swift */; };
 		BE3DD97E2BD2F858004D8935 /* gainiFiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD97D2BD2F858004D8935 /* gainiFiApp.swift */; };
 		BE3DD9802BD2F858004D8935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD97F2BD2F858004D8935 /* ContentView.swift */; };
 		BE3DD9822BD2F85B004D8935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3DD9812BD2F85B004D8935 /* Assets.xcassets */; };
@@ -14,6 +20,7 @@
 		BE3DD98F2BD2F85B004D8935 /* gainiFiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD98E2BD2F85B004D8935 /* gainiFiTests.swift */; };
 		BE3DD9992BD2F85B004D8935 /* gainiFiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD9982BD2F85B004D8935 /* gainiFiUITests.swift */; };
 		BE3DD99B2BD2F85B004D8935 /* gainiFiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DD99A2BD2F85B004D8935 /* gainiFiUITestsLaunchTests.swift */; };
+		BE68288C2BE062BD00984491 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68288B2BE062BD00984491 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE1EF1BD2BF7FD1600C1A527 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		BE1EF1BF2BF7FD7300C1A527 /* ChartInterpolationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInterpolationMethod.swift; sourceTree = "<group>"; };
+		BE1EF1C12BF7FDB300C1A527 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		BE1EF1C32BF8002300C1A527 /* ChartType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartType.swift; sourceTree = "<group>"; };
+		BE1EF1C52BF8013700C1A527 /* AccessibilityHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHelpers.swift; sourceTree = "<group>"; };
+		BE1EF1C72BF822EA00C1A527 /* SectorChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChartView.swift; sourceTree = "<group>"; };
 		BE3DD97A2BD2F858004D8935 /* gainiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gainiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3DD97D2BD2F858004D8935 /* gainiFiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gainiFiApp.swift; sourceTree = "<group>"; };
 		BE3DD97F2BD2F858004D8935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,7 @@
 		BE3DD9942BD2F85B004D8935 /* gainiFiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gainiFiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3DD9982BD2F85B004D8935 /* gainiFiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gainiFiUITests.swift; sourceTree = "<group>"; };
 		BE3DD99A2BD2F85B004D8935 /* gainiFiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gainiFiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE68288B2BE062BD00984491 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,13 @@
 			children = (
 				BE3DD97D2BD2F858004D8935 /* gainiFiApp.swift */,
 				BE3DD97F2BD2F858004D8935 /* ContentView.swift */,
+				BE68288B2BE062BD00984491 /* HomeView.swift */,
+				BE1EF1BD2BF7FD1600C1A527 /* LineChartView.swift */,
+				BE1EF1C72BF822EA00C1A527 /* SectorChartView.swift */,
+				BE1EF1BF2BF7FD7300C1A527 /* ChartInterpolationMethod.swift */,
+				BE1EF1C12BF7FDB300C1A527 /* Mock.swift */,
+				BE1EF1C32BF8002300C1A527 /* ChartType.swift */,
+				BE1EF1C52BF8013700C1A527 /* AccessibilityHelpers.swift */,
 				BE3DD9812BD2F85B004D8935 /* Assets.xcassets */,
 				BE3DD9832BD2F85B004D8935 /* Preview Content */,
 			);
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1EF1C82BF822EA00C1A527 /* SectorChartView.swift in Sources */,
+				BE1EF1C62BF8013700C1A527 /* AccessibilityHelpers.swift in Sources */,
+				BE68288C2BE062BD00984491 /* HomeView.swift in Sources */,
 				BE3DD9802BD2F858004D8935 /* ContentView.swift in Sources */,
+				BE1EF1C42BF8002300C1A527 /* ChartType.swift in Sources */,
+				BE1EF1BE2BF7FD1600C1A527 /* LineChartView.swift in Sources */,
+				BE1EF1C02BF7FD7300C1A527 /* ChartInterpolationMethod.swift in Sources */,
 				BE3DD97E2BD2F858004D8935 /* gainiFiApp.swift in Sources */,
+				BE1EF1C22BF7FDB300C1A527 /* Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

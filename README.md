@@ -28,6 +28,13 @@ This project is designed to simulate a financial application that connects to ba
 To get a local copy up and running, follow these simple steps:
 
 ```bash
+# Clone this repo
 git clone https://github.com/HanMLG/gainiFi.git
-cd gainiFi
-# Instructions for setting up the local environment
+# Open the project folder
+cd gainiFi/gainiFi
+# Open the Xcode project 
+xed .
+```
+
+Press `⌘ Command + r` to compile and run.
+
