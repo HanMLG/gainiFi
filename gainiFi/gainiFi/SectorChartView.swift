@@ -16,9 +16,11 @@ struct Product: Identifiable {
 
 struct SectorChartView: View {
     @State private var products: [Product] = [
-        .init(title: "Annual", revenue: 0.7),
-        .init(title: "Monthly", revenue: 0.2),
-        .init(title: "Lifetime", revenue: 0.1)
+        .init(title: "Student Loans", revenue: 0.55),
+        .init(title: "Car Loans", revenue: 0.2),
+        .init(title: "Mortage", revenue: 0.15),
+        .init(title: "Personal Loans", revenue: 0.15),
+        .init(title: "Credit Card", revenue: 0.05),
     ]
     
     var body: some View {
@@ -36,5 +38,13 @@ struct SectorChartView: View {
                 )
             )
         }
+        .chartForegroundStyleScale([
+            "Student Loans": .blue, "Car Loans": .red, "Mortage": .yellow, "Personal Loans": .orange, "Credit Card": .purple
+        ])
+        .chartLegend(position: .trailing, alignment: .bottom)
     }
+}
+
+#Preview {
+    SectorChartView()
 }

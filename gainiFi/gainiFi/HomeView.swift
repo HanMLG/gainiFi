@@ -11,7 +11,7 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading) {
+                VStack(alignment: .leading, spacing: 0) {
                     HStack {
                         VStack(alignment: .leading) {
                             Text("Credit: 500")
@@ -26,63 +26,78 @@ struct HomeView: View {
                             .clipShape(Circle())
                             .frame(width: 50, height: 50)
                     }
+                    .padding()
                     
                     Text("Financial Summary")
                         .font(.title)
                         .bold()
+                        .padding(.horizontal)
                     
-//                    ChartView(isOverview: false)
-//                        .frame(height: 200)
-                    
-//                    ZStack {
-//                        RoundedRectangle(cornerRadius: 16)
-//                            .foregroundStyle(.accent)
-                        
                     VStack(alignment: .leading) {
-                            Text("Balance: $125,00")
-                                .font(.title)
-                                .bold()
-                                .foregroundStyle(.white)
-                            
-                            LineChartView(isOverview: false)
-                        }
-                        .padding()
-                        .background(.accent)
-                        .cornerRadius(16)
-//                    }
+                        Text("Balance: $125,00")
+                            .font(.title)
+                            .bold()
+                            .foregroundStyle(.white)
+                        
+                        LineChartView(isOverview: false)
+                    }
+                    .padding()
+                    .background(.accent)
+                    .cornerRadius(16)
                     .frame(height: 240)
+                    .padding()
+                    
+                    VStack {
+                        ZStack {
+                            HStack {
+                                SectorChartView()
+                                    .frame(width: 266)
+                                    .padding(.vertical)
+                                
+                                Spacer()
+                            }
+                            
+                            VStack{
+                                HStack(alignment: .top) {
+                                    Spacer()
+                                    
+                                    Text("Debit")
+                                            .font(.title)
+                                            .bold()
+                                            .foregroundStyle(.white)
+                                            .padding()
+                                }
+                                
+                                Spacer()
+                            }
+                        }
+                    }
+                    .frame(height: 200)
+                    .padding(.horizontal)
+                    .background(.accent)
+                    .cornerRadius(16)
+                    .padding(.horizontal)
                     
                     ZStack {
                         RoundedRectangle(cornerRadius: 16)
                             .foregroundStyle(.accent)
                         
-                        Text("Debit")
-                            .font(.title)
+                        Text("\(Image(systemName: "dollarsign.circle")) Affiliate Offers")
+                            .font(.largeTitle)
                             .bold()
                             .foregroundStyle(.white)
                     }
                     .frame(height: 200)
-                    
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 16)
-                            .foregroundStyle(.accent)
-                        
-                        Text("Offers")
-                            .font(.title)
-                            .bold()
-                            .foregroundStyle(.white)
-                    }
-                    .frame(height: 200)
+                    .padding()
                     
                     Spacer()
                 }
-                .padding()
             }
             .overlay(alignment: .top) {
-                Color.clear // Or any view or color
-                    .background(.background) // I put clear here because I prefer to put a blur in this case. This modifier and the material it contains are optional.
+                Color.clear
+                    .background(.background)
                     .ignoresSafeArea(edges: .top)
-                    .frame(height: 0) // This will constrain the overlay to only go above the top safe area and not under.
+                    .frame(height: 0)
             }
         }
     }
